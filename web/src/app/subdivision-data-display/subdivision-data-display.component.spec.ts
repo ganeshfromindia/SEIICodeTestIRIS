@@ -7,14 +7,14 @@ describe('SubdivisionDataDisplayComponent', () => {
   let fixture: ComponentFixture<SubdivisionDataDisplayComponent>;
 
   beforeEach(async () => {
-    await TestBed.configureTestingModule({
+    TestBed.configureTestingModule({
       declarations: [ SubdivisionDataDisplayComponent ]
     })
-    .compileComponents();
-
-    fixture = TestBed.createComponent(SubdivisionDataDisplayComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
+    
+    // fixture = TestBed.createComponent(SubdivisionDataDisplayComponent);
+    // component = fixture.componentInstance;
+    // fixture.detectChanges();
+    component = TestBed.inject(SubdivisionDataDisplayComponent);
   });
 
   it('should create', () => {

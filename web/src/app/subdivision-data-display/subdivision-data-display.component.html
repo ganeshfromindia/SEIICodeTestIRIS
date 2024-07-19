@@ -1,1 +1,12 @@
-<p>Display the subdivision data here!</p>
+<!-- <p>Display the subdivision data here!</p> -->
+
+<!-- The AG Grid component -->
+<ag-grid-angular
+    class="ag-theme-quartz"
+    style="height: 500px;"
+    [rowData]="rowData"
+    [columnDefs]="colDefs" 
+    [pagination]="pagination"
+    [paginationPageSize]="paginationPageSize"
+    [paginationPageSizeSelector]="paginationPageSizeSelector"
+></ag-grid-angular>

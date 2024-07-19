@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { SubdivisionDataDisplayComponent } from './subdivision-data-display/subdivision-data-display.component';
+import {  AgGridModule } from 'ag-grid-angular';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { SubdivisionDataDisplayComponent } from './subdivision-data-display/subd
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    AgGridModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

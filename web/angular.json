@@ -24,6 +24,8 @@
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "./node_modules/ag-grid-community/styles/ag-grid.css",
+              "./node_modules/ag-grid-community/styles/ag-theme-quartz.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -99,5 +101,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "fffe3b7b-bc5b-40f5-97e8-35cb2e44b63a"
   }
 }
